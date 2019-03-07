@@ -1,0 +1,12 @@
+#parallax {
+  opacity: 10%;
+}
+html {
+  scroll-behavior: smooth;
+}
+#logo {
+  padding-left: 20px;
+}
+#navBar {
+  position: fixed-top;
+}
