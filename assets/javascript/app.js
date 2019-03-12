@@ -12,12 +12,13 @@ $(document).ready(function() {
   $(".sidenav").sidenav();
 });
 
-// Email.send({
-//   Host: "smtp.yourisp.com",
-//   Username: "username",
-//   Password: "password",
-//   To: "them@website.com",
-//   From: "you@isp.com",
-//   Subject: "This is the subject",
-//   Body: "And this is the body"
-// }).then(message => alert(message));
+var lastScrollTop = 0;
+$(document).on("scroll", function() {
+  var st = $(this).scrollTop();
+  if (st > lastScrollTop) {
+    $("#showHide_hd").slideUp(1000);
+  } else {
+    $("#showHide_hd").slideDown(1500);
+  }
+  lastScrollTop = st;
+});

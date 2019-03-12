@@ -7,6 +7,87 @@ html {
 #logo {
   padding-left: 20px;
 }
-#navBar {
-  position: fixed-top;
+
+/* body {
+  background-color: #555;
+} */
+
+#navdiv {
+  position: absolute;
+  z-index: 999999999;
+  overflow: hidden;
 }
+.sticky {
+  position: fixed;
+  top: 0px;
+  z-index: 150;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+#fixed_hd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20px;
+  background: #dfdfdf;
+}
+#showHide_hd {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background: green;
+  padding: 10px 0;
+}
+#content {
+  float: left;
+  margin: 110px 0 0 0;
+}
+li {
+  font-size: large;
+  font-weight: bold;
+}
+#mail {
+  color: black;
+}
+#git {
+  color: black;
+}
+#linkedin {
+  color: black;
+}
+
+#twitter {
+  color: black;
+}
+#insta {
+  color: black;
+}
+#youtube {
+  color: black;
+}
+
+/* =============== */
+
+/* #mail1 {
+  color: white;
+}
+#git1 {
+  color: white;
+}
+#linkedin1 {
+  color: white;
+}
+
+#twitter1 {
+  color: white;
+}
+#insta1 {
+  color: white;
+}
+#youtube1 {
+  color: white;
+} */

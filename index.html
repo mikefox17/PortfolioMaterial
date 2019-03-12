@@ -17,30 +17,32 @@
       href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-        <div class="navbar-fixed">
-
-    <nav class="nav #6a1b9a purple darken-3" id="navBar">
-      <div class="nav-wrapper nav-fixed" id="navy">
-        <ul class="sidenav" id="mobile-demo">
-          <li><a href="sass.html">About Me</a></li>
-          <li><a href="badges.html">Portfolio</a></li>
-          <li><a href="collapsible.html">Get in touch</a></li>
-        </ul>
-        <a href="#!" class="brand-logo" id="logo">Mike Fox</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#social">Get in touch</a></li>
-        </ul>
-      </div>
-    </nav>
-
+    <div class="navbar-fixed" id="navdiv" id="fixed_hd">
+      <nav class="transparent z-depth-0"  id="showHide_hd">
+        <div class="nav-wrapper">
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">About Me</a></li>
+            <li><a href="badges.html">Portfolio</a></li>
+            <li><a href="collapsible.html">Get in touch</a></li>
+          </ul>
+          <a href="#!" class="brand-logo" id="logo">Mike Fox</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="parallax-container">
       <div class="parallax">
         <img
@@ -75,16 +77,46 @@
               </p>
 
               <hr />
-              <ion-icon size="large" name="send"></ion-icon>
-              <ion-icon size="large" name="logo-github"></ion-icon>
-              <ion-icon size="large" name="logo-linkedin"></ion-icon>
-              <ion-icon size="large" name="logo-instagram"></ion-icon>
-              <ion-icon size="large" name="logo-twitter"></ion-icon>
-              <ion-icon size="large" name="logo-youtube"></ion-icon>
+              <br />
+
+              <a href="mailto:mikefox17@gmail.com"
+                ><ion-icon id="mail" size="large" name="send"></ion-icon
+              ></a>
+              <a href="https://github.com/mikefox17"
+                ><ion-icon id="git" size="large" name="logo-github"></ion-icon
+              ></a>
+              <a href="http://www.linkedin.com/in/MichaelFoxdownstairs"
+                ><ion-icon
+                  id="linkedin"
+                  size="large"
+                  name="logo-linkedin"
+                ></ion-icon
+              ></a>
+              <a href="https://www.instagram.com/thefoxdownstairs/"
+                ><ion-icon
+                  id="insta"
+                  size="large"
+                  name="logo-instagram"
+                ></ion-icon
+              ></a>
+              <a href="https://twitter.com/foxdownstairs"
+                ><ion-icon
+                  id="twitter"
+                  size="large"
+                  name="logo-twitter"
+                ></ion-icon
+              ></a>
+              <a href="https://www.youtube.com/user/86thecake"
+                ><ion-icon
+                  id="youtube"
+                  size="large"
+                  name="logo-youtube"
+                ></ion-icon
+              ></a>
             </div>
           </div>
         </div>
-        <div class="section">
+        <div class="wrapper">
           <div
             class="card hoverable z-depth-3 show-on-small-only hide-on-med-and-up"
           >
@@ -336,9 +368,64 @@
         </div>
       </div>
     </div>
-    <button class="btn" id="test">TESTING 123</button>
-    <!-- <script src="https://smtpjs.com/v3/smtp.js">
-    </script> -->
+    <br>
+    <hr>
+    <footer class="page-footer white hozerable
+    ">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="black-text">
+              Need to revamp your website? I'm available for freelance work!
+            </h5>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <p class="black-text">Get in touch</p>
+            <hr>
+
+            <a href="mailto:mikefox17@gmail.com"
+              ><ion-icon id="mail" size="large" name="send"></ion-icon
+            ></a>
+            <a href="https://github.com/mikefox17"
+              ><ion-icon id="git" size="large" name="logo-github"></ion-icon
+            ></a>
+            <a href="http://www.linkedin.com/in/MichaelFoxdownstairs"
+              ><ion-icon
+                id="linkedin"
+                size="large"
+                name="logo-linkedin"
+              ></ion-icon
+            ></a>
+            <a href="https://www.instagram.com/thefoxdownstairs/"
+              ><ion-icon
+                id="insta"
+                size="large"
+                name="logo-instagram"
+              ></ion-icon
+            ></a>
+            <a href="https://twitter.com/foxdownstairs"
+              ><ion-icon
+                id="twitter"
+                size="large"
+                name="logo-twitter"
+              ></ion-icon
+            ></a>
+            <a href="https://www.youtube.com/user/86thecake"
+              ><ion-icon
+                id="youtube"
+                size="large"
+                name="logo-youtube"
+              ></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+        <div class="container">
+          © 2019 Fox Codes
+        </div>
+      </div>
+    </footer>
+
     <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
 
     <script
