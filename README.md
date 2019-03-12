@@ -1,6 +1,6 @@
 ## Portfolio
 
-Updated portfolio built with added projects and social media links.
+Updated portfolio with added projects and social media links.
 
 [See it here](https://mikefox17.github.io/PortfolioMaterial/)
 
